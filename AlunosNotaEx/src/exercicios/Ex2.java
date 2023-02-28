@@ -17,7 +17,7 @@ public class Ex2 {
 		int NumAprovados = alunoAprovado(media, rm, n, aprovados);
 
 		for (int i = 0; i < n; i++) {
-			System.out.println("Media do aluno " + rm[i] + " :" + media[i] + "\n");
+			System.out.println("Media do aluno  " + rm[i] + " :" + media[i] + "\n");
 		}
 		System.out.println("RM dos alunos aprovados: ");
 		for (int i = 0; i < NumAprovados; i++) {
