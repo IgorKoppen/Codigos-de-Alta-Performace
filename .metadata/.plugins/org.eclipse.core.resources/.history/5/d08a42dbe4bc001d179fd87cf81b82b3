@@ -1,0 +1,10 @@
+package pilhas;
+
+public class PilhaInt {
+
+	public void push(int[] vetorDados,int topo){
+		
+		
+	}
+	
+}

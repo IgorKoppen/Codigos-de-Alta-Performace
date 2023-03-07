@@ -1,0 +1,23 @@
+package aluno;
+
+public class Aluno {
+	String nome;
+	int rm;
+	double nota1,nota2;
+	double media;
+
+	public Aluno(String nome, int rm, double nota1, double nota2, double media) {
+		this.nome = nome;
+		this.rm = rm;
+		this.nota1 = nota1;
+		this.nota2 = nota2;
+		this.media = 0;
+	}
+	
+	
+   
+	
+	
+	
+	
+}

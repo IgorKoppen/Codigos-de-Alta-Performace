@@ -1,0 +1,12 @@
+package pilhas;
+
+public class PilhaInt {
+
+	public final int N=6;
+	
+	public void push(int topo){
+		
+		
+	}
+	
+}

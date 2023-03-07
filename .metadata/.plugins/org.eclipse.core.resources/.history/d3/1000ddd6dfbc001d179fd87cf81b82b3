@@ -1,0 +1,19 @@
+package aluno;
+
+import java.util.Stack;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Aluno aluno1 = new Aluno("Pedro",93507,7.6,5.1,0);
+       Stack<String> pilha  = new Stack<String>();
+       
+       pilha.push("igor");
+		pilha.push("Jão");
+		pilha.pop();
+		System.out.println(pilha.peek());
+		
+	}
+
+}
