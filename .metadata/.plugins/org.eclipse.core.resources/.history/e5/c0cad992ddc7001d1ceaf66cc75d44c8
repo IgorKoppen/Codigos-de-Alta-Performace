@@ -1,0 +1,35 @@
+package fila;
+
+public class FilaInt {
+	public final int N = 8;
+	int dados[] = new int[N];
+	int ini, fim;
+
+	public void init() {
+		ini = 0;
+		fim = 0;
+	}
+
+	public boolean isEmpty() {
+		if (ini == 0 && fim == 0)
+			return true;
+		else
+			return false;
+	}
+
+	public boolean isFull() {
+		if (fim == N)
+			return true;
+		else
+			return false;
+	}
+
+	public void enqueue() {
+
+	}
+
+	public void dequeue() {
+
+	}
+
+}
