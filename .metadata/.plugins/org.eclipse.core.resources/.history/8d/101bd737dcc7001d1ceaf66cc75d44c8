@@ -1,6 +1,0 @@
-package fila;
-
-import fila.FilaInt;
-public class FilaInt {
-
-}

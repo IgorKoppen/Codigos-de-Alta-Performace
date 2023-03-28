@@ -1,0 +1,10 @@
+package exercicios3;
+
+public class AtendeAluno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
