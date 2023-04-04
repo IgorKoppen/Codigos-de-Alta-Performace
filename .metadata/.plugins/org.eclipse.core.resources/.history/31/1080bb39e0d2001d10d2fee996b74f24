@@ -1,9 +1,10 @@
-package exercicios3;
+package exercicio5;
+
+import java.util.Scanner;
 
 import filas.FilaInt;
-import java.util.Scanner;;
 
-public class AtendeAluno {
+public class Consultorio {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);

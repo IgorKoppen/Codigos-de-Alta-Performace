@@ -18,25 +18,14 @@ public class AtendeAluno {
 			opcao = teclado.nextInt();
 			switch (opcao) {
 			case 0:
-				if(filaAlunos.IsEmpty())
-					System.out.println("Encerrado o atendimento!");
-				else{
-					System.out.println("Ainda há alunos aguardando atendimento");
-				opcao = -1;
-				}
-					
 				break;
 			case 1:
 				System.out.println("Digite o Rm do aluno: ");
 				filaAlunos.Enqueue(teclado.nextInt());
 				break;
 			case 2:
-				if(!filaAlunos.IsEmpty()){
 				System.out.println("Aluno: " + filaAlunos.first() + " foi para o atendimento: ");
 				filaAlunos.Dequeue();
-				}else{
-					System.out.println("Não é possivel remover");
-				}
 				break;
 			default:
 				System.out.println("Opcao Invalida!\n");

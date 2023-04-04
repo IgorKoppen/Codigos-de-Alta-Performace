@@ -1,14 +1,15 @@
-package exercicios3;
+package exercicio5;
 
-import filas.FilaInt;
-import java.util.Scanner;;
+import java.util.Scanner;
 
-public class AtendeAluno {
+import filas.FilaString;;
+
+public class Consultorio {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		FilaInt filaAlunos = new FilaInt();
-		filaAlunos.Init();
+		FilaString filaPacientes = new FilaString();
+		filaPacientes.Init();
 		int opcao = 0;
 		do {
 			System.out.println("0 - Encerrar atendimento");
